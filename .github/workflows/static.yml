@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratório de Prótese Dentária</title>
+    <style>
+        /* Estilos CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .servicos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .servico {
+            width: 30%;
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .servico h3 {
+            color: #333;
+        }
+        .servico p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Laboratório de Prótese Dentária</h1>
+    </header>
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Serviços</a>
+        <a href="#">Portfólio</a>
+        <a href="#">Contato</a>
+    </nav>
+    <section>
+        <div class="container">
+            <h2>Bem-vindo ao Laboratório de Prótese Dentária</h2>
+            <p>Somos especializados na fabricação de próteses dentárias de alta qualidade para atender às necessidades dos nossos clientes. Navegue pelo nosso site para saber mais sobre os nossos serviços e entre em contato conosco para agendar uma consulta.</p>
+            <h3>Nossos Serviços</h3>
+            <div class="servicos">
+                <div class="servico">
+                    <h3>Próteses Fixas</h3>
+                    <p>Fabricação de coroas e pontes fixas para restaurar dentes danificados ou perdidos.</p>
+                </div>
+                <div class="servico">
+                    <h3>Próteses Removíveis</h3>
+                    <p>Confecção de próteses removíveis completas ou parciais para substituir dentes ausentes.</p>
+                </div>
+                <div class="servico">
+                    <h3>Próteses Totais</h3>
+                    <p>Elaboração de próteses totais para reabilitação oral completa.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        &copy; 2024 Laboratório de Prótese Dentária
+    </footer>
+</body>
+</html>
